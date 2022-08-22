@@ -2134,20 +2134,32 @@ p {
   position: absolute;
 }
 .hero__shape img.hero-1-circle {
-  top: 25%;
+  top: -100px;
   left: 5%;
+  width: 100px;
   -webkit-animation: hero-circle-1 6s linear 0s infinite alternate;
   -moz-animation: hero-circle-1 6s linear 0s infinite alternate;
   -o-animation: hero-circle-1 6s linear 0s infinite alternate;
   animation: hero-circle-1 6s linear 0s infinite alternate;
 }
 .hero__shape img.hero-1-circle-2 {
-  bottom: 29%;
-  left: 0;
+  bottom: -41px;
+  left: -41px;
+  width: 75px;
 }
 .hero__shape img.hero-1-dot-2 {
-  right: 0;
-  bottom: 38%;
+  bottom: -41px;
+  right: 40%;
+  width: 75px;
+}
+.hero__mic img{
+  width: 50px;
+}
+.hero__mic-2 img{
+  width: 30px;
+}
+.hero__mic-3 img{
+  width: 30px;
 }
 .hero__search-input {
   position: relative;
@@ -2332,6 +2344,24 @@ p {
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-name: hero-bounce;
+}
+.hero__mic-2 {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: spin;
+}
+.hero__mic-3 {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: spaceboots;
 }
 .hero__mic span {
   display: inline-block;
