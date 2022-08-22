@@ -2281,7 +2281,6 @@ p {
   -moz-border-radius: 4px;
   border-radius: 4px;
   padding: 20px;
-  transform: translateX(-50%);
   border-radius: 28px;
   background-color: #5d6083;
 }
@@ -4372,7 +4371,7 @@ p {
 /*  09. CTA CSS START
 /*----------------------------------------*/
 .cta__inner {
-  padding: 50px 100px 53px 70px;
+  padding: 30px 50px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 100px 10px;
@@ -4381,6 +4380,8 @@ p {
   box-shadow: 0px 30px 60px 0px rgba(0, 4, 48, 0.3);
   position: relative;
   z-index: 1;
+  background-size: cover;
+  background-position: center;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta__inner {
