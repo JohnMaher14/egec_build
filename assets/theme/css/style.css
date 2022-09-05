@@ -1377,10 +1377,10 @@ p {
   -ms-transform: translateY(1px);
   transform: translateY(1px);
   font-size: 14px;
-  color: #fff;
+  color: #202556;
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
-  margin-left: 5px;
+  margin:auto 5px;
   display: inline-block;
 }
 
@@ -2765,8 +2765,8 @@ p {
   }
 }
 .course__content-4 {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .course__content-4 {
@@ -3103,9 +3103,9 @@ p {
   border-radius: 4px;
   overflow: hidden;
 }
-.course__tab-2 .nav-tabs .nav-item {
+/* .course__tab-2 .nav-tabs .nav-item {
   width: 25%;
-}
+} */
 .course__tab-2 .nav-tabs .nav-item:not(:last-child) .nav-link {
   border-right: 1px solid #d2d3dc;
 }
@@ -4463,7 +4463,7 @@ p {
   width: 600px;
   height: 600px;
   object-fit: contain;
-  
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -7573,7 +7573,7 @@ p.checkout-coupon input[type=text]:focus {
 /*----------------------------------------*/
 /*  22. CONTACT CSS START
 /*----------------------------------------*/
-.contact__form-input input, .contact__form-input textarea {
+.contact__form-input input, .contact__form-input textarea  , .contact__form-input select{
   width: 100%;
   height: 56px;
   line-height: 54px;
@@ -7587,11 +7587,11 @@ p.checkout-coupon input[type=text]:focus {
   font-size: 15px;
   margin-bottom: 20px;
 }
-.contact__form-input input::placeholder, .contact__form-input textarea::placeholder {
+.contact__form-input input::placeholder, .contact__form-input textarea::placeholder ,.contact__form-input select::placeholder {
   font-size: 15px;
   color: #6d6e75;
 }
-.contact__form-input input:focus, .contact__form-input textarea:focus {
+.contact__form-input input:focus, .contact__form-input textarea:focus , .contact__form-input select:focus {
   border-color: #2b4eff;
   outline: none;
   background: #ffffff;
@@ -8344,7 +8344,7 @@ p.checkout-coupon input[type=text]:focus {
 .sign__input {
   position: relative;
 }
-.sign__input input {
+.sign__input input , .sign__input select {
   width: 100%;
   height: 60px;
   line-height: 52px;
@@ -8360,7 +8360,7 @@ p.checkout-coupon input[type=text]:focus {
 .sign__input input::placeholder {
   color: #8e8c94;
 }
-.sign__input input:focus {
+.sign__input input:focus , .sign__input select:focus {
   outline: none;
   background: #ffffff;
   border-color: #2b4eff;
