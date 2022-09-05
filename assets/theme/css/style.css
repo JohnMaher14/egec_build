@@ -893,9 +893,9 @@ p {
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   display: block;
-  -webkit-box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
-  -moz-box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
-  box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.08);
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.2);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.2);
+  box-shadow: 0px 10px 20px 0px rgba(8, 0, 42, 0.2);
 }
 .header__area.sticky .header__search input {
   background: #edeef3;
