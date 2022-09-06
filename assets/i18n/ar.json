@@ -36,6 +36,12 @@
   "study_area_title":"ادرس حسب الدولة" ,
   "study_area_text":"التحق الآن بالجامعات في",
   "specialization_area_title":"أدرس حسب التخصص",
+  "specialization_area_text_1" : "ادارة الاعمال",
+  "specialization_area_text_2" : "الحقوق",
+  "specialization_area_text_3" : "الطب",
+  "specialization_area_text_4" : "الهندسة",
+  "specialization_area_text_5" : "علوم آنسانية",
+  "specialization_area_text_6" : "علوم الحاسب الآلي",
   "counter_area_title":"سعداء بالتعامل مع",
   "counter__area--text1":"جامعة",
   "counter__area--text2":"طالب",
@@ -51,7 +57,11 @@
   "related_faculties":"كليات الاخري",
   "related_section":"تصفح أيضًا",
   "mission": "مهمتنا",
+  "mission_text": "بناء كيان متميز لتقديم أفضل أشكال المعرفة العلمية ورفع المستوى العلمي والمعرفي.",
   "vision": "رؤية",
+  "vision_text": "تأهيل الأفراد لإكسابهم المهارات والمعارف لبناء جيل مبدع قادر على بناء مستقبل أفضل.",
+  "latest_blogs": "'آخر المقالات التعليمية'",
+
   "breadcrumb_home": "الرئيسية",
   "work_hours": "مواعيد العمل",
   "office": " موقعنا",
@@ -71,7 +81,7 @@
   "know_more_universities":"تصفح الجامعات",
   "know_more_destinations":"تصفح البلاد",
   "know_more_faculties":"تصفح الكلية",
-  "admission_form": "استمارة الألتحاق",
+  "admission_form": "التحق الآن",
   "login_button":"أنشاء الحساب هنا!",
   "form_name":"الأسم",
   "form_email":"البريد الإلكتروني",
@@ -100,7 +110,8 @@
   "footer_links_li-1" : "الرئيسية",
   "footer_links_li-2" : "من نحن",
   "footer_links_li-3" : "شركاؤنا",
-  "footer_links_li-4" : "اتصل بنا"
+  "footer_links_li-4" : "اتصل بنا",
+  "search_label" : "خانة البحث"
 
 
 }

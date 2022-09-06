@@ -34,7 +34,7 @@ $(document).ready(function(){
     if( bottomViewPort>=footerTop){
       $(socialBarSelector).fadeOut();
     }else{
-      $(socialBarSelector).delay(500).fadeIn();
+      $(socialBarSelector).fadeIn();
     }
   });
 

@@ -1156,21 +1156,35 @@ p {
 .header__cart a:hover .cart-item {
   background: #0e1133;
 }
+.w256px{
+  width: 256px;
+
+}
+.w193px{
+  width: 193px;
+
+}
+.rtl .header__btn-2 a{
+  padding: 0 23px 0 10px;
+}
 .header__btn-2 a {
   line-height: 44px;
-  padding: 0 60px;
+  padding: 0 10px 0 35px;
   border-radius: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
+}
+.header__btn-2 a p {
+  color: #fff;
 }
 .header__btn-2 a i{
   border: 1px solid;
   padding: 10px 13px;
   border-radius: 100%;
-  position: absolute;
-  right: 5px;
+  /* position: absolute;
+  right: 5px; */
 }
 .header__search-3 {
   position: fixed;
@@ -1389,11 +1403,11 @@ p {
   visibility: visible;
   opacity: 1;
 }
-.main-menu ul li .submenu {
+ .main-menu ul li .submenu {
   position: absolute;
   top: 120%;
   left: 0;
-  width: 200px;
+  width: 210px;
   background: #ffffff;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1407,6 +1421,7 @@ p {
   -moz-box-shadow: 0px 30px 70px 0px rgba(11, 6, 70, 0.08);
   box-shadow: 0px 30px 70px 0px rgba(11, 6, 70, 0.08);
 }
+
 .main-menu ul li .submenu li {
   display: block;
   width: 100%;
@@ -2685,7 +2700,7 @@ p {
 .course__title {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .course__title {
@@ -2726,7 +2741,7 @@ p {
   padding-right: 7px;
 }
 .course__content {
-  padding: 25px 30px;
+  padding: 10px 30px;
 }
 .course__content-2 {
   padding-top: 25px;
@@ -4409,8 +4424,11 @@ p {
   box-shadow: 0px 30px 60px 0px rgba(0, 4, 48, 0.3);
   position: relative;
   z-index: 1;
-
+  /* background: linear-gradient(to right, #202556 20%, #fff 80%); */
+}
+.rtl .cta__inner {
   background: linear-gradient(to right, #fff 80%, #202556 20%);
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .cta__inner {
@@ -4456,13 +4474,25 @@ p {
   }
 }
 .cta__shape img {
+
+  position: absolute;
+  bottom: -224px;
+  left: -135px;
+  right: auto;
+  transform: rotate(180deg);
+  width: 600px;
+  height: 600px;
+  object-fit: contain;
+}
+.rtl .cta__shape img {
+
   position: absolute;
   bottom: -188px;
   right: -150px;
   width: 600px;
   height: 600px;
   object-fit: contain;
-
+  transform: unset;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -7320,7 +7350,7 @@ p.checkout-coupon input[type=text]:focus {
 .page__title {
   font-size: 70px;
   color: #ffffff;
-  line-height: 62px;
+  line-height: 80px;
   margin-bottom: 0;
 }
 @media (max-width: 575px) {
